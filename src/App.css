@@ -1,0 +1,99 @@
+.App-header {
+  text-align: center;
+}
+
+.App {
+  background-color: aqua;
+}
+
+.frist_div {
+  text-align: center;
+  background-color: lightcoral;
+  width: 40%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 61, 0.2) 0px 10px 29px 10px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.frist_div input {
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  top: 10px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #8566aa;
+}
+.frist_div input:focus-visible {
+  outline: none;
+}
+
+.frist_div button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #8566aa;
+  box-shadow: none !important;
+  outline: none;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+.frist_div ul {
+  padding-top: 20px;
+
+  list-style: none;
+}
+
+.frist_div ul li {
+  padding-top: 10px;
+  font-size: 25px;
+  color: rgb(66, 58, 58);
+  text-decoration: underline;
+}
+.todo_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_list .fa-regular {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 15px 15px 0 35px;
+  font-size: 20px;
+}
+
+div > a.active  {
+  color: #fff !important;
+  font-size: 23px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+}
+.search_item{
+  text-align: center;
+}
+.search_item input{
+  background-color: #fff;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+
+}
